@@ -43,3 +43,27 @@
       </mrow>
     </mrow>
   </math>
+
+
+.. raw:: html
+
+  <script type="text/x-mathjax-config"> MathJax.Hub.Config({
+  MMLorHTML: { prefer: "HTML" },
+  tex2jax: {
+  displayMath: [['\\[', '\\]']],
+  inlineMath: [['\\(', '\\)']],
+  processEscapes: true
+  },
+  TeX: { extensions: ['enclose.js'] }
+  });
+  </script>
+  <script type="text/javascript"
+    src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+  </script>
+
+
+formula
+
+.. raw:: html
+
+  \[ \frac{a}{b} \]
